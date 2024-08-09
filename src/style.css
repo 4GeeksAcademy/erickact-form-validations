@@ -1,1 +1,15 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.error {
+  color: red;
+}
+
+.error input,
+.error textarea,
+.error select {
+  border: 2px solid red;
+}
+
+.parent-class:has(.error) {
+  color: red;
+}
